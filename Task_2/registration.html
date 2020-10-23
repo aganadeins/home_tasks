@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../task1/index.html">Главная</a></li>
+            <li><a href="../task1/second_page.html">Вторая страница</a></li>
+            <li><a href="../task1/third_page.html">Третья страница</a></li>
+            <li><a href="./login_page.html">Авторизуйтесь</a></li>
+            <li><a href="./registration.html">Зарегистрируйтесь</a></li>
+        </ul>
+    </nav>
+    <h1>Впервые на нашем сайте? Зарегистрируйтесь</h1>
+    <form method="POST">
+        <fieldset>
+            <input id="userName" type="text" maxlength="30" placeholder="Ваше имя" autofocus required>
+            <br>
+            <br>
+            <input type="email" placeholder="Введите ваш email" required>
+            <br>
+            <br>
+            <input id="userLogin" type="text" minlength="4" maxlength="30" placeholder="Придумайте логин" required> Минимальная длина логина должна быть не менее 4 символов
+            <br>
+            <br>
+            <input id="userPassword" type="password" minlength="8" maxlength="30" placeholder="Придумайте пароль" required>
+            Минимальная длина пароля должна быть не менее 8 символов
+            <br>
+            <br>
+            <input id="userPasswordConfirm" type="password" minlength="8" maxlength="30" placeholder="Повторите пароль" required>
+            <br>
+            <br>
+            <p>По желанию вы можете загрузить своё фото в формате jpeg или png</p>
+            <input type="file" accept="image/jpeg, image/png">
+        </fieldset>
+        <br>
+        <input type="submit" value="Зарегистрироваться">
+</body>
+</html>
