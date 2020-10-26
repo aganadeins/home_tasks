@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета участника</title>
+    <link rel="stylesheet" type="text/css"  href="css/style_index.css">
+</head>
+<body>
+    <h1>Анкета участника конкурса </h1>
+    <p>Уважаемый участник конкурса, просим вас заполнить следущую анкету</p>
+    <form>
+        <div id="align_div">
+            <fieldset>
+                <label>Имя: <input required autofocus></label>
+                <br>
+                <label>Фамилия: <input required></label>
+                <br>
+                <label>Год рождения: <input type="number" maxlength="4" required></label>
+                <br>
+                <p><b>Пол</b></p>
+                <p><input name="sex" type="radio" value="m"> М</p>
+                <p><input name="sex" type="radio" value="w"> Ж</p>
+                <p><b>В каких номинациях вы планируете выступать?</b></p>
+                <p><input type="checkbox" name="a" value="Лучший танцор"> Лучший танцор</p>
+                <p><input type="checkbox" name="a" value="Виртуоз"> Виртуоз</p>
+                <p><input type="checkbox" name="a" value="Необычные таланты"> Необычные таланты</p>
+                <p><b>Выберите день, в который вам удобно посетить кастинг</b></p>
+                <select>
+                    <option selected value="11.11.2020">11.11.2020</option>
+                    <option value="13.11.2020">13.11.2020</option>
+                    <option value="14.11.2020">14.11.2020</option>
+                </select>
+                <p><b>Выберите время, в которое вам удобно посетить кастинг</b></p>
+                <select>
+                    <option selected value="12.00-13.00">12.00-13.00</option>
+                    <option value="13.00-14.00">13.00-14.00</option>
+                    <option value="14.00-15.00">14.00-15.00</option>
+                    <option value="15.00-16.00">15.00-16.00</option>
+                    <option value="16.00-17.00" disabled>16.00-17.00</option>
+                    <option value="17.00-18.00">17.00-18.00</option>
+                </select>
+                <p><b>Введите ваши контактные данные</b></p>
+                <label>Email <input type="email" required></label>
+                <label>Телефон <input type="tel" required></label>
+            </fieldset>
+            <p><input class="button"  type="submit" value="Отправить"></p>
+            <p><input class="button" type="reset"></p>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+    background-image: url(../images/background6.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+#menu {
+    list-style-type: none;
+}
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li {
+    display: inline-block;
+}
+#menu a {
+    display: block;
+    width: 150px;
+    background-color: rosybrown;
+    color: #333333;
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 20px;
+    text-transform: lowercase;
+    font-family: 'EB Garamond', serif;
+}
