@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    background: #33392b
+    ;
+}
+
+[class*=col-] {
+    background-color: #431517;
+}
+
+.row, [class*=col-] {
+    padding: 10px;
+    border: 1px solid #e2a5a5;
+    color: #b87070;
+}
+
